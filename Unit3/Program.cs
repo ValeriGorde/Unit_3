@@ -6,9 +6,18 @@ namespace Unit3
     {
         static void Main(string[] args)
         {
-            string MyName;
-            MyName = "Valeria";
-            Console.WriteLine(MyName);
+            string name = "Valeria";
+            byte age = 20;
+            bool pet = true;
+            double size = 39.5;
+
+            Console.WriteLine("My name is " + name);
+            Console.WriteLine("I'm "+ age+ " years old");
+            Console.WriteLine("I have a dog "+ pet);
+            Console.WriteLine("I have "+ size+ " size of shoes");
+
+
+            Console.ReadKey();
         }
     }
 }
